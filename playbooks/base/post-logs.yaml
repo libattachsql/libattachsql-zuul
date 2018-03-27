@@ -1,5 +1,5 @@
 - hosts: localhost
   roles:
     - role: upload-logs
-      zuul_log_url: "http://logs.openstack.org"
+      zuul_log_url: "http://192.168.86.51:8080/"
       zuul_log_verbose: true
