@@ -21,8 +21,8 @@
     success:
       github:
         status: 'success'
-      mysql:
+      mydatabase:
     failure:
       github:
         status: 'failure'
-      mysql:
+      mydatabase:
