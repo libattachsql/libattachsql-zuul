@@ -1,12 +1,3 @@
-- job:
-    name: scanbuild
-    run: playbooks/scanbuild.yaml
-    timeout: 7200
-    nodeset:
-        nodes:
-            - name: xenial
-              label: ubuntu-xenial
-
 - pipeline:
     name: check
     description: |
